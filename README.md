@@ -57,7 +57,7 @@ Options object can be assign by giving second argument.
 ```javascript
 const sortable = new Sortable(item, {
   itemClass: 'item-class', // class applies to every sortable element
-  draggingClass: 'dargging', // class will apply when dragging start
+  draggingClass: 'dragging', // class will apply when dragging start
   disabledClass: 'disabled', // class will apply if sorting is disable
   zoom: 1, // it is viewport zoom value (if have css zoom property)
   containers: 'sort-container', // comma seperated appendable boxes classes
