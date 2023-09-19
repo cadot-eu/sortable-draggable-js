@@ -45,7 +45,7 @@ Or connect a CDN link (Coming soon)
 
 ```javascript
 const elements = document.querySelectorAll('.sort');
-divsToSort.forEach((item) => {
+elements.forEach((item) => {
   const sortable = new Sortable(item);
 });
 ```
